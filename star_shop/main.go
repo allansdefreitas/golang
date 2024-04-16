@@ -12,7 +12,7 @@ import (
 
 /*
 go mod init projectName
-go get github.com/lib/pq
+go get github.com/lib/pq 
 */
 
 func main() {
