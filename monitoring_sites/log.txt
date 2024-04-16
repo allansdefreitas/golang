@@ -1,0 +1,40 @@
+04/04/2024 16:00:07 - https://httpbin.org/status/200 - online: true
+04/04/2024 16:00:08 - https://httpbin.org/status/400 - online: false
+04/04/2024 16:00:08 - https://www.dictionary.com/browse/slice - online: true
+04/04/2024 16:00:08 - https://portal.ieadpe.org.br/ - online: true
+04/04/2024 16:00:08 - https://emprel.gov.br : some problem occurred to access it: Get "https://emprel.gov.br": tls: failed to verify certificate: x509: certificate is valid for *.recife.pe.gov.br, recife.pe.gov.br, not emprel.gov.br
+04/04/2024 16:00:09 - https://serpro.gov.br - online: true
+04/04/2024 16:00:09 - https://ifpe.edu.br : some problem occurred to access it: Get "https://ifpe.edu.br": dial tcp: lookup ifpe.edu.br on 127.0.0.53:53: no such host
+04/04/2024 16:00:11 - https://cin.ufpe.br - online: true
+04/04/2024 16:00:13 - https://httpbin.org/status/200 - online: true
+04/04/2024 16:00:13 - https://httpbin.org/status/400 - online: false
+04/04/2024 16:00:13 - https://www.dictionary.com/browse/slice - online: true
+04/04/2024 16:00:13 - https://portal.ieadpe.org.br/ - online: true
+04/04/2024 16:00:14 - https://emprel.gov.br : some problem occurred to access it: Get "https://emprel.gov.br": tls: failed to verify certificate: x509: certificate is valid for *.recife.pe.gov.br, recife.pe.gov.br, not emprel.gov.br
+04/04/2024 16:00:14 - https://serpro.gov.br - online: true
+04/04/2024 16:00:14 - https://ifpe.edu.br : some problem occurred to access it: Get "https://ifpe.edu.br": dial tcp: lookup ifpe.edu.br on 127.0.0.53:53: no such host
+04/04/2024 16:00:17 - https://cin.ufpe.br - online: true
+04/04/2024 16:00:19 - https://httpbin.org/status/200 - online: true
+04/04/2024 16:00:19 - https://httpbin.org/status/400 - online: false
+04/04/2024 16:00:19 - https://www.dictionary.com/browse/slice - online: true
+04/04/2024 16:00:19 - https://portal.ieadpe.org.br/ - online: true
+04/04/2024 16:00:20 - https://emprel.gov.br : some problem occurred to access it: Get "https://emprel.gov.br": tls: failed to verify certificate: x509: certificate is valid for *.recife.pe.gov.br, recife.pe.gov.br, not emprel.gov.br
+04/04/2024 16:00:20 - https://serpro.gov.br - online: true
+04/04/2024 16:00:20 - https://ifpe.edu.br : some problem occurred to access it: Get "https://ifpe.edu.br": dial tcp: lookup ifpe.edu.br on 127.0.0.53:53: no such host
+04/04/2024 16:00:24 - https://cin.ufpe.br - online: true
+04/04/2024 16:00:26 - https://httpbin.org/status/200 - online: true
+04/04/2024 16:00:26 - https://httpbin.org/status/400 - online: false
+04/04/2024 16:00:26 - https://www.dictionary.com/browse/slice - online: true
+04/04/2024 16:00:26 - https://portal.ieadpe.org.br/ - online: true
+04/04/2024 16:00:26 - https://emprel.gov.br : some problem occurred to access it: Get "https://emprel.gov.br": tls: failed to verify certificate: x509: certificate is valid for *.recife.pe.gov.br, recife.pe.gov.br, not emprel.gov.br
+04/04/2024 16:00:27 - https://serpro.gov.br - online: true
+04/04/2024 16:00:27 - https://ifpe.edu.br : some problem occurred to access it: Get "https://ifpe.edu.br": dial tcp: lookup ifpe.edu.br on 127.0.0.53:53: no such host
+04/04/2024 16:00:31 - https://cin.ufpe.br - online: true
+04/04/2024 16:00:33 - https://httpbin.org/status/200 - online: true
+04/04/2024 16:00:33 - https://httpbin.org/status/400 - online: false
+04/04/2024 16:00:33 - https://www.dictionary.com/browse/slice - online: true
+04/04/2024 16:00:34 - https://portal.ieadpe.org.br/ - online: true
+04/04/2024 16:00:34 - https://emprel.gov.br : some problem occurred to access it: Get "https://emprel.gov.br": tls: failed to verify certificate: x509: certificate is valid for *.recife.pe.gov.br, recife.pe.gov.br, not emprel.gov.br
+04/04/2024 16:00:34 - https://serpro.gov.br - online: true
+04/04/2024 16:00:34 - https://ifpe.edu.br : some problem occurred to access it: Get "https://ifpe.edu.br": dial tcp: lookup ifpe.edu.br on 127.0.0.53:53: no such host
+04/04/2024 16:00:37 - https://cin.ufpe.br - online: true

@@ -1,0 +1,8 @@
+https://httpbin.org/status/200
+https://httpbin.org/status/400
+https://www.dictionary.com/browse/slice
+https://portal.ieadpe.org.br/
+https://emprel.gov.br
+https://serpro.gov.br
+https://ifpe.edu.br
+https://cin.ufpe.br
