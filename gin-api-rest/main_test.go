@@ -4,6 +4,9 @@ package main
 Author: Allan Freitas
 Comments:
 
+#Run all tests
+go test
+
 #Run a specific test function:
 go test -run <testname>
 

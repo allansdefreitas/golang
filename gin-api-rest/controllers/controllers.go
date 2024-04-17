@@ -134,3 +134,10 @@ func Greeting(c *gin.Context) {
 		"API says: ": "Whats Up, " + name + ". How are you?",
 	})
 }
+
+func ShowPageIndex(c *gin.Context) {
+
+	c.HTML(http.StatusOK, "index.html", gin.H{
+		"message": "Welcome!",
+	})
+}
