@@ -45,6 +45,15 @@ func CreateNewStudent(c *gin.Context) {
 			"error": err.Error()})
 		return
 	} // in case of error occuring
+
+	// Validate student before insert
+	err := models.ValidateStudent(&student)
+	if err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{
+			"error": err.Error()})
+		return
+	}
+
 	database.DB.Create(&student)
 	c.JSON(http.StatusOK, student) //return JSON success message
 
@@ -80,6 +89,13 @@ func UpdateStudent(c *gin.Context) {
 		return
 	}
 
+	// Validate student before update
+	err := models.ValidateStudent(&student)
+	if err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{
+			"error": err.Error()})
+		return
+	}
 	database.DB.Model(&student).UpdateColumns(student)
 
 	c.JSON(http.StatusOK, student)

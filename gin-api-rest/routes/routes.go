@@ -14,7 +14,7 @@ func HandleRequests() {
 	r.POST("/students", controllers.CreateNewStudent)
 	r.DELETE("/students/:id", controllers.DeleteStudent)
 	// r.PUT("students", controllers.UpdateStudent)
-	r.PATCH("students/:id", controllers.UpdateStudent)
+	r.PATCH("/students/:id", controllers.UpdateStudent)
 
 	// so does not need params
 
