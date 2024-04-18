@@ -1,6 +1,7 @@
 package controllers
 
 import (
+	"fmt"
 	"net/http"
 
 	"github.com/allansdefreitas/api-go/gin/database"
@@ -135,9 +136,25 @@ func Greeting(c *gin.Context) {
 	})
 }
 
-func ShowPageIndex(c *gin.Context) {
+func ShowHTMLGreetings(c *gin.Context) {
 
-	c.HTML(http.StatusOK, "index.html", gin.H{
+	c.HTML(http.StatusOK, "index_greeting.html", gin.H{
 		"message": "Welcome!",
 	})
+}
+
+func ShowPageIndex(c *gin.Context) {
+
+	var students []models.Student
+	database.DB.Find(&students)
+	fmt.Println("students", students)
+
+	c.HTML(http.StatusOK, "index.html", gin.H{
+		"students": students,
+	})
+}
+
+func RouteNotFound(c *gin.Context) {
+
+	c.HTML(http.StatusNotFound, "404.html", nil)
 }

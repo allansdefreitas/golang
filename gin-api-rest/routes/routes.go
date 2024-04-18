@@ -6,8 +6,9 @@ import (
 )
 
 func HandleRequests() {
-	r := gin.Default()            // Default conf
-	r.LoadHTMLGlob("templates/*") // Specify that we have HTML pages
+	r := gin.Default()              // Default conf
+	r.LoadHTMLGlob("templates/*")   // Specify that we have HTML pages
+	r.Static("/assets", "./assets") // Specify that we have static files
 
 	r.GET("/students", controllers.ShowAllStudents) //Gin calls the function 'showAllStudents' internally,
 	r.GET("/:name", controllers.Greeting)
@@ -17,8 +18,11 @@ func HandleRequests() {
 	r.DELETE("/students/:id", controllers.DeleteStudent)
 	// r.PUT("students", controllers.UpdateStudent)
 	r.PATCH("/students/:id", controllers.UpdateStudent)
+
+	//HTML pages
+	r.GET("/greetings", controllers.ShowHTMLGreetings)
 	r.GET("/index", controllers.ShowPageIndex)
-	// so does not need params
+	r.NoRoute(controllers.RouteNotFound) //handler not found requests
 
 	r.Run(":8000") //Run a server. Default is :8080
 
